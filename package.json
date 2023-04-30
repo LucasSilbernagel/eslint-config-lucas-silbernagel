@@ -202,7 +202,7 @@
     "to-regex-range": "^5.0.1",
     "which": "^2.0.2",
     "tsutils": "^3.21.0",
-    "typescript": "^4.7.3",
+    "typescript": "^5.0.4",
     "tslib": "^1.14.1",
     "word-wrap": "^1.2.3",
     "uri-js": "^4.4.1",
