@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lucas-silbernagel",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "ESLint & Prettier configuration for React projects with TypeScript",
   "main": "index.js",
   "scripts": {
