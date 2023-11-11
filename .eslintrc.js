@@ -25,8 +25,7 @@ module.exports = {
     'react',
     '@typescript-eslint',
     'prettier',
-    'jsx-a11y',
-    'prettier-plugin-tailwindcss'
+    'jsx-a11y'
   ],
   rules: {
     'prettier/prettier': [
