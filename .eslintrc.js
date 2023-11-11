@@ -11,6 +11,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/jsx-runtime',
     'prettier',
+    'plugin:jsx-a11y/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,7 +21,13 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'prettier',
+    'prettier-plugin-tailwindcss',
+    'jsx-a11y'
+  ],
   rules: {
     'prettier/prettier': [
       'error',
@@ -36,7 +43,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: '17.0.2',
+      version: 'latest',
     },
   },
 }
